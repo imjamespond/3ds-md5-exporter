@@ -1,0 +1,192 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PANEL DIALOGEX 0, 0, 141, 214
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Codechiev Md5 Animation Exporter"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "frame start:",IDC_STATIC,29,18,36,8
+    LTEXT           "frame end:",IDC_STATIC,29,33,36,8
+    PUSHBUTTON      "export",IDC_EXPORT_BTN,42,191,50,14
+    EDITTEXT        IDC_FRAME_START,65,16,46,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRAME_END,65,31,46,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",NOT WS_VISIBLE | WS_BORDER,16,170,109,6
+    CONTROL         "2 digit",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | BS_LEFTTEXT | WS_GROUP,31,57,30,10
+    CONTROL         "3 digit",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | BS_LEFTTEXT,31,68,30,10
+    CONTROL         "4 digit",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | BS_LEFTTEXT,31,79,30,10
+    CONTROL         "5 digit",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | BS_LEFTTEXT,81,57,30,10
+    CONTROL         "6 digit",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | BS_LEFTTEXT,81,68,30,10
+    CONTROL         "8 digit",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | BS_LEFTTEXT,81,79,30,10
+    GROUPBOX        "frame range",IDC_STATIC,16,8,109,39
+    GROUPBOX        "precision",IDC_STATIC,16,49,109,42
+    GROUPBOX        "flag precision",IDC_STATIC,16,91,109,27
+    LTEXT           "start export",IDC_TEXT_PROGRESS,40,179,58,8
+    CONTROL         "3 digit",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | BS_LEFTTEXT | WS_GROUP,31,102,30,10
+    CONTROL         "5 digit",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | BS_LEFTTEXT,81,102,30,10
+    LTEXT           "X:",IDC_STATIC,29,130,8,8
+    EDITTEXT        IDC_BJ_INC1,38,129,13,12,ES_AUTOHSCROLL
+    GROUPBOX        "base joint increasement",IDC_STATIC,16,119,109,25
+    LTEXT           "Y:",IDC_STATIC,58,130,8,8
+    EDITTEXT        IDC_BJ_INC2,67,129,13,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,86,130,8,8
+    EDITTEXT        IDC_BJ_INC3,95,129,13,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 134
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "480904b0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "md5anim.dll"
+            VALUE "LegalCopyright", "Copyright (C) 2016"
+            VALUE "OriginalFilename", "md5anim.dll"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x4809, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_LIBDESCRIPTION      "md5anim by codechiev"
+    IDS_CATEGORY            "md5anim"
+    IDS_CLASS_NAME          "md5anim"
+    IDS_PARAMS              "Parameters"
+    IDS_SPIN                "Spin"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Singapore) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENE)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_SINGAPORE
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (Singapore) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
